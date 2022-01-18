@@ -1,0 +1,44 @@
+class kalkulator:
+    def tambah(self, a, b):
+        return a+b
+    
+    def kurang(self, a, b):
+        return a-b
+        
+    def kali(self, a, b):
+        return a*b
+
+    def bagi(self, a, b):
+        return a/b
+
+my_cl = kalkulator()
+
+while True:
+
+    print("1: tambah")
+    print("2: kurang")
+    print("3: kali")
+    print("4: bagi")
+    print("5: keluar")
+    
+    hasil = int(input("pilih : "))
+
+    if hasil in (1, 2, 3, 4, 5):
+        
+        if(hasil == 5):
+            break
+    
+        a = int(input("masukan angka 1: "))
+        b = int(input("masukan angka 2: "))
+        
+        if(hasil == 1):
+            print(a, "+", b, "=", my_cl.tambah(a, b))
+        elif(hasil == 2):
+            print(a, "-", b, "=", my_cl.kurang(a, b))
+        elif(hasil == 3):
+            print(a, "*", b, "=", my_cl.kali(a, b))
+        elif(hasil == 4):
+            print(a, "/", b, "=", my_cl.bagi(a, b))
+    
+    else:
+        print("gagal")
