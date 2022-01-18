@@ -1,0 +1,19 @@
+class ujian_class():
+    var_nama = ""
+    var_alamat = ""
+    var_nim = ""
+
+
+        def get_nama (self, nama):
+        self.var_nama = nama
+
+        def get_alamat(self, alamat):
+        self.var_alamat = alamat
+        
+         def get_nim(self, nim):
+        self.var_nim = nim
+
+    def get_output(self):
+        print ("Nama : ",self.var_nama)
+        print ("Alamat : ", self.var_alamat)
+        print ("nim : ", self.var_nim)
