@@ -1,0 +1,13 @@
+def luaspersegipanjang(panjang,luas):
+    rumus=(panjang*luas)
+    return 
+   
+    
+
+panjang=int(input("masukkan panjang:"))
+luas=int(input("masukkan luas:"))
+keliling = 2*(panjang+luas)
+
+print ("hasil: ")
+print("Luas Persegi =", luaspersegipanjang(panjang,luas))
+print("keliling =",(keliling))
