@@ -1,0 +1,10 @@
+import ujian_class
+
+obj = ujian_class.ujian_class("soal ujian no 2 python")
+var_nama = input("Nama Anda : ")
+var_alamat = input ("Alamat : ")
+var_nim = input ("nim : ")
+obj.get_nama(var_nama)
+obj.get_alamat(var_alamat)
+obj.get_nim(var_nim)
+obj.get_output()
